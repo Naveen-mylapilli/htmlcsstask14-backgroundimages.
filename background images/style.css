@@ -1,0 +1,72 @@
+body{background-image: url(./images/492453.jpg);
+/* background-repeat: no-repeat;
+object-fit:fill; */
+
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.leaderspic{
+    width: 200px;
+    height: 200px;
+    object-fit: contain; 
+}
+.leaders{
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #e08d12;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.leaders p{
+    text-align: justify;
+    
+}
+#modiDiv{
+    background-image:url(./images/Flag_of_India.png),url(./images/india-national-emblem.webp) ;
+    background-size:300px, 100px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px 200px;
+    background-position: right bottom,center;
+}
+#putinDiv{
+    background-image: url(./images/Flag_of_Russia.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: 0px 200px;
+}
+#joeBidenDiv{
+    background-image: url(./images/Flag_of_the_United_States.png);
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-position: 0px 200px;
+    
+}
+#xiJinpingDiv{
+    background-image: url(./images/Flag_of__China.png);
+    background-size: 200px;
+    background-repeat: repeat-y;
+    background-position: 0px 200px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+#rishiDiv{
+    background-image: url(./images/Flag_of_the_United_Kingdom.svg.png);
+    /* background-size: 900px; */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+/* #rishiImg{
+    object-position: 0px 15px;
+
+} */
